@@ -26,3 +26,17 @@ ul{
     text-decoration: none;
     color: white;
 }
+.logo,
+.utility{
+    width: 200px;
+}
+.utility{
+    width: 150px;
+}
+
+.search-bar{
+    flex-grow: 1;
+}
+@media screen and (max-width: 768px) {
+    
+}
