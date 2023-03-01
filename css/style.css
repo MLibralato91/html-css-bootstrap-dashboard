@@ -13,8 +13,12 @@ header{
     background-color: #051e34;
     background-image: url(../img/sidebar-bg.png);
 }
+
 main{
     flex-grow: 1;
     overflow-y: auto;
     height: 100%;
+}
+ul{
+    list-style: none;
 }
