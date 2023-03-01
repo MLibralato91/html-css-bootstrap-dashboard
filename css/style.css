@@ -8,7 +8,7 @@ header{
 }
 #sidebar{
     height: 100%;
-    width: 180px;
+    width: 150px;
     flex-shrink: 0;
     background-color: #051e34;
     background-image: url(../img/sidebar-bg.png);
@@ -41,9 +41,10 @@ ul{
     width: 50px;
     display: none;
 }
+
 @media screen and (max-width: 768px) {
     #sidebar{
-        width: 70px;
+        width: 60px;
     }
     .large-logo{
         display: none;
@@ -63,5 +64,13 @@ ul{
     header .utility a:last-child{
         display: block;
     }
-    
-}
+    .icon-sidebar,
+    .icon-bot-sidebar{
+        display: flex;
+    }
+    .text-sidebar,
+    .text-bot-sidebar{
+        display: none;
+    }
+}   
+
