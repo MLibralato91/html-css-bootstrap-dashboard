@@ -43,6 +43,9 @@ ul{
     width: 50px;
     display: none;
 }
+.info-class{
+    width: 400px;
+}
 
 @media screen and (max-width: 768px) {
     #sidebar{
