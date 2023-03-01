@@ -37,6 +37,31 @@ ul{
 .search-bar{
     flex-grow: 1;
 }
+.small-logo{
+    width: 50px;
+    display: none;
+}
 @media screen and (max-width: 768px) {
+    #sidebar{
+        width: 70px;
+    }
+    .large-logo{
+        display: none;
+    }
+    .small-logo{
+        display: block;
+    }
+    .logo{
+        width: 70px;
+    }
+    .utility{
+        width: 40px;
+    }
+    header .utility a{
+        display: none;
+    }
+    header .utility a:last-child{
+        display: block;
+    }
     
 }
