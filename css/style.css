@@ -43,18 +43,7 @@ ul{
     width: 50px;
     display: none;
 }
-.info-class{
-    width: 70%;
-}
 
-.li-roi,
-.li-stato,
-.li-action{
-    width: 20%;
-}
-.li-date{
-    width: 30%;
-}
 
 @media screen and (max-width: 768px) {
     #sidebar{
