@@ -132,10 +132,12 @@ tr th:first-child{
   
     
     .my-row{
-        flex-flow:row-reverse!important;
+        flex-flow:row!important;
         justify-content:space-between;
     }
-    
+    .my-first{
+        
+    }
 }
 @media screen and (min-width: 992px){
     .my-badge{
