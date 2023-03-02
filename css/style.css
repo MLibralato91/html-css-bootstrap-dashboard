@@ -43,7 +43,36 @@ ul{
     width: 50px;
     display: none;
 }
-
+th img{
+    width: 25px;
+}
+td,
+th{
+    text-align: center;
+    vertical-align: middle;
+}
+td{
+    width: 100px;
+}
+tr th:first-child{
+    text-align: start;
+}
+.my-btn {
+    border: 2px solid rgb(160, 157, 157);
+    background-color: rgb(252, 252, 252);
+    height:30px;
+    width:30px;
+    border-radius: 20%;
+    cursor:pointer;
+    margin-left: 8px;
+}
+.my-btn i{
+    color:rgb(160, 157, 157) ;
+}
+.my-btn:hover {
+   background-color: rgb(101, 101, 116);
+    color:white;
+}
 
 
 @media screen and (max-width: 768px) {
