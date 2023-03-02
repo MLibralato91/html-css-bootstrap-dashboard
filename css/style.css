@@ -44,9 +44,17 @@ ul{
     display: none;
 }
 .info-class{
-    width: 400px;
+    width: 70%;
 }
 
+.li-roi,
+.li-stato,
+.li-action{
+    width: 20%;
+}
+.li-date{
+    width: 40%;
+}
 @media screen and (max-width: 768px) {
     #sidebar{
         width: 60px;
@@ -79,3 +87,17 @@ ul{
     }
 }   
 
+@media screen and (max-width:576px) {
+    .li-date,
+    .li-roi{
+        display: none;
+    }
+    
+    .info-class{
+        width: 50%;
+    }
+    .li-stato,
+    .li-action{
+    width: 50%;
+    }
+}
