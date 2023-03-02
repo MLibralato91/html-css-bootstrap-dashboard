@@ -1,3 +1,7 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 header{
     height: 50px;
     background-color: #f8f9fa;
@@ -44,7 +48,7 @@ ul{
     display: none;
 }
 th img{
-    width: 25px;
+    width: 24px;
 }
 td,
 th{
@@ -52,13 +56,13 @@ th{
     vertical-align: middle;
 }
 td{
-    width: 100px;
+    width: 95px;
 }
 tr th:first-child{
     text-align: start;
 }
 .my-btn {
-    border: 2px solid rgb(160, 157, 157);
+    border: 2px solid rgb(255, 255, 255);
     background-color: rgb(252, 252, 252);
     height:30px;
     width:30px;
@@ -67,13 +71,16 @@ tr th:first-child{
     margin-left: 8px;
 }
 .my-btn i{
-    color:rgb(160, 157, 157) ;
+    color:rgb(255, 255, 255) ;
 }
 .my-btn:hover {
    background-color: rgb(101, 101, 116);
     color:white;
 }
-
+.aside .badge{
+    background-color: rgba(0, 0, 0, 0.267);
+    
+}
 
 @media screen and (max-width: 768px) {
     #sidebar{
