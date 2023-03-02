@@ -82,6 +82,9 @@ tr th:first-child{
     
 }
 
+.my-badge{
+    display:none;
+}
 @media screen and (max-width: 768px) {
     #sidebar{
         width: 60px;
@@ -112,13 +115,30 @@ tr th:first-child{
     .text-bot-sidebar{
         display: none;
     }
-    
 
+    
 }   
 
 @media screen and (max-width: 576px) {
     .my-roi,
     .my-date{
         display: none;
+    }
+   
+    
+}
+
+@media screen and (min-width: 768px) {
+  
+    
+    .my-row{
+        flex-flow:row-reverse!important;
+        justify-content:space-between;
+    }
+    
+}
+@media screen and (min-width: 992px){
+    .my-badge{
+        display:block;
     }
 }
