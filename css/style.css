@@ -85,6 +85,9 @@ tr th:first-child{
 .my-badge{
     display:none;
 }
+.offcanvas.offcanvas-end{
+    width: 100vw;
+}
 @media screen and (max-width: 768px) {
     #sidebar{
         width: 60px;
@@ -137,6 +140,9 @@ tr th:first-child{
     }
     .my-first{
         
+    }
+    .offcanvas.offcanvas-end{
+        width: 70vw;
     }
 }
 @media screen and (min-width: 992px){
